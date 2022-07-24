@@ -1,4 +1,43 @@
-# Excercise-01
+Lab overview:
+This lab will teach you how to configure continuous integration (CI) and continuous deployment (CD) for your applications using Build and Release in Azure Pipelines. This scriptable CI/CD system is web-based and cross-platform while also providing a modern interface for visualizing sophisticated workflows. Although we won’t demonstrate all of the cross-platform possibilities in this lab, it's essential to point out that you can also build for iOS, Android, Java (using Ant, Maven, or Gradle), and Linux.
+
+Objectives:
+After you complete this lab, you will be able to-
+Create a basic build pipeline from a template.
+Track and review a build.
+Invoke a continuous integration build.
+
+Estimated timing: 45 minutes
+
+Instructions
+
+### Exercise 0: Configure the lab prerequisites
+In this exercise, you will set up the prerequisite for the lab, which consists of the preconfigured Parts Unlimited team project based on an Azure DevOps Demo Generator template.
+
+Task 1: Configure the team project
+In this task, you will use Azure DevOps Demo Generator to generate a new project based on the Parts Unlimited template.
+
+1. On your lab computer, start a web browser and navigate to https://azuredevopsdemogenerator.azurewebsites.net. This utility site will automate the process of creating a new Azure DevOps project within your account that is prepopulated with content (work items, repos, etc.) required for the lab.
+
+    Note: For more information on the site, see https://docs.microsoft.com/en-us/azure/devops/demo-gen.
+
+2. Click Sign in and sign in using the Microsoft account associated with your Azure DevOps subscription.
+
+3. If required, on the Azure DevOps Demo Generator page, click Accept to accept the permission requests for accessing your Azure DevOps subscription.
+
+4. On the Create New Project page, in the New Project Name textbox, type Enabling Continuous Integration with Azure Pipelines, in the Select organization dropdown list, select your Azure DevOps organization, and then click Choose template.
+
+5. In the list of templates, locate the PartsUnlimited template and click Select Template.
+
+6. Back on the Create New Project page, click Create Project
+
+Note: Wait for the process to complete. This should take about 2 minutes. In case the process fails, navigate to your DevOps organization, delete the project, and try again.
+
+7. On the Create New Project page, click Navigate to project.
+
+
+
+### Excercise-01
 
 Exercise 1: Introduction to Azure DevOps Build
 In this exercise, you will create a basic build pipeline from a template, track and review the new build job, and trigger a continuous integration build.
