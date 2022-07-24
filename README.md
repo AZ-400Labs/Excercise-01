@@ -5,7 +5,7 @@ This lab will teach you how to configure continuous integration (CI) and continu
 Objectives:
 
 After you complete this lab, you will be able to-
-Create a basic build pipeline from a template.
+Create a basic build pipeline from a template. 
 Track and review a build.
 Invoke a continuous integration build.
 
@@ -14,6 +14,7 @@ Estimated timing: 45 minutes
 Instructions
 
 ### Exercise 0: Configure the lab prerequisites
+
 In this exercise, you will set up the prerequisite for the lab, which consists of the preconfigured Parts Unlimited team project based on an Azure DevOps Demo Generator template.
 
 Task 1: Configure the team project
@@ -39,9 +40,8 @@ Note: Wait for the process to complete. This should take about 2 minutes. In cas
 
 
 
-### Excercise-01
+### Excercise-1: Introduction to Azure DevOps Build
 
-Exercise 1: Introduction to Azure DevOps Build
 In this exercise, you will create a basic build pipeline from a template, track and review the new build job, and trigger a continuous integration build.
 
 Task 1: Creating a basic build pipeline from a template
