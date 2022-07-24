@@ -38,23 +38,23 @@ In this task, you will create and configure a build pipeline by using a predefin
 
 11. Select the Variables tab and review its content.
 
-   Note: Here you can configure special parameters to be used during the build, such as the configuration or platform.
+    Note: Here you can configure special parameters to be used during the build, such as the configuration or platform.
 
 12. Select the Triggers tab and check the Enable continuous integration checkbox.
 
-   Note: This automatically invokes the build whenever source changes are committed. Triggers allow you to automatically invoke builds on a schedule, when another build completes, or when changes are made to the source.
+    Note: This automatically invokes the build whenever source changes are committed. Triggers allow you to automatically invoke builds on a schedule, when another build completes, or when changes are made to the source.
 
 13. Select the Options tab and review its content.
 
-   Note: This section includes a wide variety of options related to the build workflow. Note that you'll generally configure options for specific build tasks on the configuration views of the tasks themselves.
+    Note: This section includes a wide variety of options related to the build workflow. Note that you'll generally configure options for specific build tasks on the configuration views of the tasks themselves.
 
 14. Select the History tab.
 
-   Note: At this point, the tab does not contain any entries, but it will show a history of changes you make to the build definition.
+    Note: At this point, the tab does not contain any entries, but it will show a history of changes you make to the build definition.
 
 15. Select the Save & Queue tab header and, in the dropdown menu, select Save & Queue entry to save and queue a new build.
 
-   Note: You can define the retention time for pipeline artifacts from Project Settings > Settings > Retention policy. These settings enable you to configure which pipeline runs are retained and for how long.
+    Note: You can define the retention time for pipeline artifacts from Project Settings > Settings > Retention policy. These settings enable you to configure which pipeline runs are retained and for how long.
 
 16. In the Run pipeline pane, accept the default options and click Save and run. This will automatically display the Summary tab of the pipeline run job, with the Queued status.
 
@@ -62,15 +62,15 @@ In this task, you will create and configure a build pipeline by using a predefin
 Task 2: Tracking and reviewing a build
 In this task, you will track and review the new build job.
 
-   Note: Once the build begins, you'll be able to track the console output per task.
+    Note: Once the build begins, you'll be able to track the console output per task.
 
 1. On the Summary tab of the pipeline run job, in the Jobs section, click Agent job 1. This will display the details pane of the job.
 
-   Note: If you want to review an earlier task, you can scroll the right pane to review its logs.
+    Note: If you want to review an earlier task, you can scroll the right pane to review its logs.
 
 2. Once the build completes successfully, on the job details pane, click the left-facing arrow to return to the summary view.
 
-   Note: The summary view provides overview details about the build, including details about commits, tests, and artifacts.
+    Note: The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
 
 
@@ -90,7 +90,7 @@ In this task, you will trigger a continuous integration build.
 
 5. On the Commit pane, accept the default commit details and click Commit.
 
-   Note: This will automatically trigger a build.
+    Note: This will automatically trigger a build.
 
 6. In the vertical navigational pane, select the Pipelines section and ensure that the Pipelines view is displayed.
 
